@@ -19,7 +19,7 @@ public class Main{
         label.setIcon(icon);
         // label.setHorizontalTextPosition(JLabel.LEFT); // lines 20 and 21 work only when layout manager of panel is set to border layout
         // label.setVerticalTextPosition(JLabel.BOTTOM);
-        label.setBounds(400, 0, 150, 150);
+        label.setBounds(200, 0, 150, 150);
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.red);
         redPanel.setBounds(0, 0, 250, 250);
